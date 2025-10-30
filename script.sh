@@ -11,16 +11,6 @@ suma(){
     	echo "El resultado de la suma es: $resultado"
 }
 
-resta(){
-	echo "Introduzca el primer numero"
-	read num1
-	
-	echo "Introduzca el segundo numero"
-	read num2
-	
-	resultado=$((num1 - num2))
-    	echo "El resultado de la resta es: $resultado"
-}
 
 imprimirFrase(){
 	echo "Hola mundo"
